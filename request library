@@ -1,0 +1,9 @@
+
+!/usr/bib/python3
+import requests
+url="http://python.org"
+t=requests.get(url)
+if r.status-code==200:
+    content=r.text
+    print(r.status-code)
+    print(content)
